@@ -1,0 +1,86 @@
+.p-guide .pagetitlebar {
+  background: url(../images/p-guide/common/pagetitlebar.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 4.66vw;
+}
+.p-guide .pagetitlebar__ttl {
+  margin-top: 4.06vw;
+}
+.p-guide .section-row {
+  max-width: 86.66vw;
+  width: 100%;
+  margin-inline: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 5.33vw;
+  padding-block: 8vw;
+}
+.p-guide .section-col {
+  width: 100%;
+}
+.p-guide .section-col:last-child {
+  max-width: 36.66vw;
+}
+.p-guide-rev {
+  background: linear-gradient(to top right, #070F27, #1F2B50);
+  color: #FFF;
+}
+.p-guide-rev .section-row {
+  margin-inline: auto 0;
+  flex-direction: row-reverse;
+}
+.p-guide .scroll-block :nth-child(1) .scroll-item__link {
+  border-right: 1px solid #9B9B9B;
+  border-bottom: 1px solid #9B9B9B;
+}
+.p-guide .scroll-block :nth-child(2) .scroll-item__link {
+  border-right: 1px solid #9B9B9B;
+  border-bottom: 1px solid #9B9B9B;
+}
+.p-guide .scroll-block :nth-child(3) .scroll-item__link {
+  border-bottom: 1px solid #9B9B9B;
+}
+.p-guide .scroll-block :nth-child(4) .scroll-item__link {
+  border-right: 1px solid #9B9B9B;
+}
+.p-guide .scroll-block :nth-child(5) .scroll-item__link {
+  border-right: 1px solid #9B9B9B;
+}
+@media (max-width: 767px) {
+  .p-guide .pagetitlebar {
+    background: url(../images/p-guide/common/pagetitlebar-sp.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 17.9vw;
+  }
+  .p-guide .pagetitlebar__ttl {
+    margin-top: 5.33vw;
+  }
+  .p-guide .pagetitlebar__ttl-img {
+    max-width: 32.05vw;
+  }
+  .p-guide .section-row {
+    max-width: 89.74vw;
+    margin-inline: auto;
+    flex-direction: column-reverse;
+    gap: 5.12vw;
+    padding-block: 17.94vw;
+  }
+  .p-guide .section-col:last-child {
+    max-width: 100%;
+  }
+  .p-guide .scroll-block :nth-child(2) .scroll-item__link {
+    border-right: none;
+  }
+  .p-guide .scroll-block :nth-child(3) .scroll-item__link {
+    border-right: 1px solid #9B9B9B;
+  }
+  .p-guide .scroll-block :nth-child(4) .scroll-item__link {
+    border-right: none;
+    border-bottom: 1px solid #9B9B9B;
+  }
+  .p-guide .section-col__ttl {
+    margin-left: -.76vw;
+  }
+}/*# sourceMappingURL=guidance.css.map */

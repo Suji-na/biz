@@ -1,0 +1,115 @@
+.p-case {
+  color: #070F27;
+}
+
+.p-case .pagetitlebar {
+  background: url(../images/p-case/common/pagetitlebar.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.p-case .section-row {
+  align-items: flex-start;
+}
+
+.p-case-block {
+  margin-top: 4.66vw;
+}
+
+.p-case-block__ttl {
+  font-weight: 500;
+  font-size: 2.4vw;
+  line-height: 3.466vw;
+  letter-spacing: 0.05em;
+  margin-bottom: 2vw;
+}
+
+.p-case-block__txt {
+  color: #000;
+  font-weight: 400;
+  font-size: 1.33vw;
+  line-height: 2.1vw;
+  letter-spacing: 0.1em;
+}
+
+.p-case-rev {
+  color: #FFF;
+  background: linear-gradient(to top right, #070F27, #1F2B50);
+
+  .section-row {
+    flex-direction: row-reverse;
+  }
+}
+
+.p-case-rev .p-case-row {
+  flex-direction: row-reverse;
+}
+
+@media (min-width:768px) {
+
+  .p-case .case-wrapper>*:first-child {
+    .section-row {
+      padding-top: 4.13vw;
+    }
+  }
+  
+  .p-case .case-wrapper>*:last-child {
+    .section-row {
+      padding-bottom: 4.13vw;
+    }
+  }
+
+  .p-case {
+    .section-col__ttl {
+      font-size: 2.4vw;
+      line-height: 3.06vw;
+    }
+
+    .section-col__txt {
+      font-size: 1.2vw;
+      line-height: 2.13vw;
+    }
+  }
+
+  .p-case .section-col:first-child {
+    flex: 1;
+    padding-top: 7px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .p-case .pagetitlebar {
+    background: url(../images/p-faq/common/pagetitlebar-sp.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .p-case .pagetitlebar__ttl-img {
+    max-width: 9.38vw;
+  }
+
+  .p-case-block {
+    margin-top: 7.692vw;
+  }
+
+  .p-case-block__ttl {
+    font-size: 5.128vw;
+    line-height: 8.205vw;
+    margin-bottom: 5.282vw;
+  }
+
+  .p-case-block__txt {
+    font-size: 4.103vw;
+    line-height: 6.923vw;
+    letter-spacing: 0.05em;
+  }
+
+  .p-case-rev {
+    .section-row {
+      flex-direction: column;
+    }
+  }
+}
+
+/*# sourceMappingURL=case.css.map */

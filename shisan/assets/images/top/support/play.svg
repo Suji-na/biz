@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Group_13699" data-name="Group 13699" transform="translate(-302.5 8306.5)">
+    <g id="Icon" transform="translate(303.006 -8305.994)">
+      <rect id="Area" width="29" height="29" transform="translate(-0.006 -0.005)" fill="none" opacity="0"/>
+      <g id="Icon-2" data-name="Icon" transform="translate(-0.006 -0.005)">
+        <circle id="_0347293e-f29b-4925-bf4c-4e87fe414526" data-name="0347293e-f29b-4925-bf4c-4e87fe414526" cx="14.5" cy="14.5" r="14.5" transform="translate(0)" fill="none" stroke="#060f27" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="Polygon_1" data-name="Polygon 1" transform="translate(324 -8297) rotate(90)" fill="none">
+      <path d="M5.5,0,11,10H0Z" stroke="none"/>
+      <path d="M 5.5 2.075047492980957 L 1.691275596618652 9 L 9.308724403381348 9 L 5.5 2.075047492980957 M 5.5 0 L 11 10 L 0 10 L 5.5 0 Z" stroke="none" fill="#060f27"/>
+    </g>
+  </g>
+</svg>

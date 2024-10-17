@@ -1,0 +1,209 @@
+.p-faq {
+  color: #070F27;
+  padding-bottom: 6.66vw;
+}
+
+.p-faq .pagetitlebar {
+  background: url(../images/p-faq/common/pagetitlebar.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.p-faq-top {
+  margin-block: 4.7vw 4.33vw;
+}
+
+.p-faq-top__line {
+  display: block;
+  width: 2.199vw;
+  height: 0.33vw;
+  background: linear-gradient(to right, #072127, #4067B2, #4885A0);
+}
+
+.p-faq-top__ttl {
+  border-bottom: 1px solid #D6D6D6;
+  font-weight: 600;
+  font-size: 2.4vw;
+  line-height: 3.46vw;
+  letter-spacing: 0.05em;
+  padding-bottom: 2vw;
+  margin-block: 1vw 2vw;
+}
+
+.p-faq-top__txt {
+  font-weight: 400;
+  font-size: 1.33vw;
+  line-height: 2.133vw;
+  letter-spacing: 0.1em;
+}
+
+.p-faq .faq-block {
+  background-color: #EFEFEF;
+  padding: 1.33vw 1.33vw 1.46vw;
+  margin-bottom: 0.33vw;
+}
+
+.p-faq .faq-block-q__txt,
+.p-faq .faq-block-a__txt {
+  display: flex;
+  align-items: center;
+  gap: 0.66vw;
+}
+
+.p-faq .faq-block .q,
+.p-faq .faq-block .a {
+  font-weight: 500;
+  font-size: 1.466vw;
+  line-height: 2.133vw;
+  letter-spacing: 0.05em;
+}
+
+.p-faq .faq-block-q {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.p-faq .faq-block-q.active {
+  border-bottom: 1px solid #060F27;
+  padding-bottom: 1.4vw;
+  margin-bottom: 1.06vw;
+  transition: all 0.3s ease;
+}
+
+.p-faq .faq-block-a {
+  max-height: 0;
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+}
+
+.p-faq .faq-block-a.active {
+  max-height: 100%;
+  opacity: 1;
+  visibility: visible;
+}
+
+.p-faq .faq-block-q__txt {
+  position: relative;
+}
+
+.p-faq .faq-block-q__txt::after {
+  content: "";
+  position: absolute;
+  background: url(../images/p-faq/common/plus.svg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 1.66vw;
+  height: 1.66vw;
+  right: 0;
+  transition: all 0.3s ease;
+}
+
+.p-faq .faq-block-q__txt.active::after {
+  background: url(../images/p-faq/common/minus.svg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.p-faq .faq-block-q__txt .txt {
+  font-weight: 500;
+  font-size: 1.33vw;
+  line-height: 1.9vw;
+  letter-spacing: 0.05em;
+}
+
+.p-faq .faq-block-a__txt {
+  align-items: flex-start;
+}
+
+.p-faq .faq-block-a__txt .txt {
+  font-weight: 400;
+  font-size: 1.2vw;
+  line-height: 2vw;
+  letter-spacing: 0.1em;
+  padding-right: 2vw;
+}
+
+@media screen and (max-width: 767px) {
+  .p-faq .pagetitlebar {
+    background: url(../images/p-faq/common/pagetitlebar-sp.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .p-faq .pagetitlebar__ttl-img {
+    max-width: 7.64vw;
+  }
+
+  .p-faq-top {
+    margin-block: 7.692vw;
+  }
+
+  .p-faq-top__line {
+    width: 8.462vw;
+    height: 1.282vw;
+  }
+
+  .p-faq-top__ttl {
+    font-size: 6.154vw;
+    line-height: 8.974vw;
+    padding-bottom: 5.128vw;
+    margin-block: 3.231vw 5.128vw;
+  }
+
+  .p-faq-top__txt {
+    font-size: 4.103vw;
+    line-height: 6.859vw;
+    letter-spacing: 0.05em;
+  }
+
+  .p-faq .faq-block {
+    padding: 3.846vw;
+    margin-bottom: 1.282vw;
+  }
+
+  .p-faq .faq-block .q,
+  .p-faq .faq-block .a {
+    font-size: 5.128vw;
+    line-height: 7.436vw;
+  }
+
+  .p-faq .faq-block-q__txt .txt {
+    font-size: 4.615vw;
+    line-height: 6.667vw;
+    padding-right: 6vw;
+  }
+
+  .p-faq .faq-block-q__txt::after {
+    width: 5.128vw;
+    height: 0.513vw;
+  }
+
+  .p-faq .faq-block-a__txt .txt {
+    font-size: 4.103vw;
+    line-height: 6.923vw;
+  }
+
+  .p-faq .faq-block-q.active {
+    padding-bottom: 3.846vw;
+    margin-bottom: 3.846vw;
+  }
+
+  .p-faq .faq-block-q__txt::after {
+    background: url(../images/p-faq/common/plus.svg) no-repeat;
+    width: 5.128vw;
+    height: 5.128vw;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .p-faq .faq-block-q__txt.active::after {
+    background: url(../images/p-faq/common/minus.svg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 5.128vw;
+    height: 5.128vw;
+  }
+}
+
+/*# sourceMappingURL=faq.css.map */
